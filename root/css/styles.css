@@ -1,0 +1,166 @@
+body {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ol {
+    font-family: 'Lato';
+    color: #a1a1a1;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+
+/*Start Index Styling */
+
+.bigsearch,
+#featured a {
+    text-align: center;
+}
+
+
+/* End Index Styling */
+
+
+/* Start Nav Styling */
+
+nav {
+    background-color: #ffffff !important;
+}
+
+.navbar-form {
+    border: 0;
+}
+
+.logo {
+    font-family: 'lobster';
+    color: #9c1a10 !important;
+    font-size: 1.5em;
+}
+
+
+/* End Nav Styling */
+
+
+/* Start Type Styling */
+
+p {
+    font-family: 'Lato';
+    color: #a1a1a1;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arvo';
+    color: #a1c026;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-family: 'Lobster';
+    font-size: 2.3em;
+    color: #a1c026;
+    margin-top: 0.3em;
+}
+
+h3 {
+    font-family: 'Arvo';
+    font-style: italic;
+    font-size: 1em;
+    color: #9c1a10;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-family: 'Arvo';
+    font-weight: 700;
+    color: #a1c026;
+}
+
+h5 {
+    font-family: 'Arvo';
+    color: #95701f;
+}
+
+
+/* End Type Styling */
+
+
+/*Begin Burger Page Styling*/
+
+#cook span {
+    font-size: 3.5em;
+    color: #a1c026;
+}
+
+#prep {
+    width: 100%;
+}
+
+#prep span {
+    float: left;
+}
+
+
+/*End Burger Page Styling*/
+
+
+/*Begin All Recipe Styling*/
+
+.recipe {
+    padding: 0.6em;
+    border: 1px solid #a1a1a1;
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+
+/*End All Recipe Styling*/
+
+.more {
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+    font-family: 'Arvo';
+    color: #ffffff;
+    background-color: #a1c026;
+    margin: 2em auto;
+}
+
+#featured a {
+    font-family: 'Arvo';
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #9c1a10;
+    margin-bottom: 1.2em;
+}
+
+#featured img {
+    margin-bottom: 0.4em;
+}
+
+footer {
+    font-family: 'Lato';
+    background-color: #f3e3ba;
+}
+
+footer a {
+    font-size: 1em;
+    color: #95701f;
+    display: block;
+    float: left;
+    padding: 1em;
+}
