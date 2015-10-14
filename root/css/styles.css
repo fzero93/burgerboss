@@ -23,9 +23,63 @@ ol li {
 
 /*Start Index Styling */
 
-.bigsearch,
 #featured a {
     text-align: center;
+}
+
+#featured a:hover {
+    color: #a1c026;
+}
+
+.bigsearch {
+    text-align: center;
+    padding-top: 6em;
+}
+
+.bigsearch input {
+    font-style: italic;
+    font-family: 'Arvo';
+    padding-left: 1em;
+    width: 50%;
+    height: 2.2em;
+    opacity: 0.8;
+    border: none;
+}
+
+.bigsearch button {
+    background: #ffffff;
+    border: none;
+    height: 2.2em;
+    opacity: 0.8;
+    color: #9c1a10;
+}
+
+#searchburger {
+    position: relative;
+    top: -9em;
+    z-index: -1;
+}
+
+#search::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #9c1a10;
+}
+
+#search:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #9c1a10;
+    opacity: 1;
+}
+
+#search::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #9c1a10;
+    opacity: 1;
+}
+
+#search:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #9c1a10;
 }
 
 
@@ -63,7 +117,7 @@ h1 {
     text-align: center;
     font-family: 'Arvo';
     color: #a1c026;
-    font-size: 1.6em;
+    font-size: 2em;
     margin-bottom: 1em;
 }
 
@@ -77,10 +131,10 @@ h2 {
 h3 {
     font-family: 'Arvo';
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.3em;
     color: #9c1a10;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
 }
 
 h4 {
@@ -123,8 +177,10 @@ h5 {
     padding: 0.6em;
     border: 1px solid #a1a1a1;
     width: 40%;
+    height: 25em;
     float: left;
     margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 
