@@ -1,328 +1,345 @@
-body {
-    margin: 0 auto;
-    font-size: 16px;
-}
-
-ul {
-    padding-left: 0;
-    font-family: 'Lato';
-    color: #a1a1a1;
-}
-
-li {
-    list-style: none;
-    margin-bottom: 0.3em;
-}
-
-ol {
-    font-family: 'Lato';
-    color: #a1a1a1;
-}
-
-ol li {
-    list-style: decimal;
-}
-
-
-/*Start Index Styling */
-
-header {
-    background-image: url(../images/searchburger.jpg);
-    background-size: cover;
-    height: 15em;
-}
-
-#featured a {
-    text-align: center;
-}
-
-#featured a:hover {
-    color: #a1c026;
-}
-
-.bigsearch {
-    text-align: center;
-    padding-top: 6em;
-}
-
-.bigsearch input {
-    font-style: italic;
-    font-family: 'Arvo';
-    padding-left: 1em;
-    width: 50%;
-    height: 2.2em;
-    opacity: 0.8;
-    border: none;
-}
-
-.bigsearch button {
-    background: #ffffff;
-    border: none;
-    height: 2.2em;
-    opacity: 0.8;
-    color: #9c1a10;
-}
-
-#search::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
-    color: #9c1a10;
-}
-
-#search:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: #9c1a10;
-    opacity: 1;
-}
-
-#search::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: #9c1a10;
-    opacity: 1;
-}
-
-#search:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #9c1a10;
-}
-
-
-/* End Index Styling */
-
-
-/* Start Nav Styling */
-
-nav {
-    background-color: #ffffff !important;
-    margin-bottom: 0px !important;
-}
-
-nav a {
-    font-family: 'Arvo';
-    color: #9c1a10 !important;
-}
-
-nav a:hover {
-    color: #a1c026 !important;
-}
-
-.navbar-form {
-    border: 0;
-}
-
-.logo {
-    font-family: 'lobster';
-    color: #9c1a10 !important;
-    font-size: 1.5em;
-}
-
-.form-control {
-    width: 70%;
-}
-
-
-/* End Nav Styling */
-
-
-/* Start Type Styling */
-
-p {
-    font-family: 'Lato';
-    color: #a1a1a1;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Arvo';
-    color: #a1c026;
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-
-h2 {
-    font-family: 'Lobster';
-    font-size: 2.3em;
-    color: #a1c026;
-    margin-top: 0.3em;
-}
-
-h3 {
-    font-family: 'Arvo';
-    font-style: italic;
-    font-size: 1.3em;
-    color: #9c1a10;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
-}
-
-h4 {
-    font-family: 'Arvo';
-    font-weight: 700;
-    color: #a1c026;
-}
-
-h5 {
-    font-family: 'Arvo';
-    color: #95701f;
-}
-
-
-/* End Type Styling */
-
-
-/*Begin Burger Page Styling*/
-
-.nav-tabs a {
-    font-family: 'Arvo';
-    color: #95701f;
-}
-
-#cook {
-    margin-left: auto;
-    width: 100%;
-}
-
-#cook ul {
-    padding-left: 40px;
-}
-
-#cook ul li {
-    list-style-type: disc;
-}
-
-#cook span {
-    font-size: 3.5em;
-    color: #a1c026;
-}
-
-#prep {
-    width: 100%;
-}
-
-#prep span {
-    float: left;
-}
-
-.rating img {
-    width: 70%;
-}
-
-.description {
-    margin-bottom: 4em;
-}
-
-table {
-    margin-top: 1.5em;
-}
-
-td h4,
-td p {
-    margin: 0;
-    padding: 0.3em;
-}
-
-#reviews input[type=text] {
-    margin-top: 1em;
-    width: 100%;
-    height: 6em;
-}
-
-#reviews img {
-    width: 20%;
-}
-
-input[type=submit] {
-    float: right;
-    border: none;
-    border-bottom-right-radius: 5px;
-    padding: 2%;
-    font-family: 'Arvo';
-    color: #ffffff;
-    background-color: #a1c026;
-}
-
-input[type=reset] {
-    float: right;
-    border: none;
-    border-right: 2px solid white;
-    border-bottom-left-radius: 5px;
-    padding: 2%;
-    font-family: 'Arvo';
-    color: #ffffff;
-    background-color: #a1c026;
-}
-
-
-/*End Burger Page Styling*/
-
-
-/*Begin All Recipe Styling*/
-
-.recipe {
-    padding: 1em;
-    border: 1px solid #a1a1a1;
-    float: left;
-    margin-bottom: 5%;
-}
-
-.recipe img:nth-child(3) {
-    margin-bottom: 0.5em;
-    width: 30%;
-}
-
-.recipe h3 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-
-/*End All Recipe Styling*/
-
-.more {
-    border: none;
-    border-radius: 5px;
-    padding: 2%;
-    font-family: 'Arvo';
-    color: #ffffff;
-    background-color: #a1c026;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-#featured a {
-    font-family: 'Arvo';
-    font-weight: 400;
-    font-size: 1.2em;
-    color: #9c1a10;
-    margin-bottom: 1.2em;
-}
-
-#featured img {
-    margin-bottom: 0.4em;
-}
-
-footer {
-    font-family: 'Lato';
-    background-color: #f3e3ba;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-footer a {
-    font-size: 1em;
-    color: #95701f;
-    float: left;
-    padding: 1em;
-}
-
-
-/* MEDIA QUERIES*/
-
-
-/* Small devices (tablets, 768px and up) */
-
-@media (min-width: 768px) {}
-
-
-/* Medium devices (desktops, 992px and up) */
-
-@media (min-width: 992px) {}
+                                    body {
+                                    margin: 0 auto;
+                                    font-size: 16px;
+                                }
+                                
+                                ul {
+                                    padding-left: 0;
+                                    font-family: 'Lato';
+                                    color: #a1a1a1;
+                                }
+                                
+                                li {
+                                    list-style: none;
+                                    margin-bottom: 0.3em;
+                                }
+                                
+                                ol {
+                                    font-family: 'Lato';
+                                    color: #a1a1a1;
+                                }
+                                
+                                ol li {
+                                    list-style: decimal;
+                                }
+                                /*Start Index Styling */
+                                
+                                header {
+                                    background-image: url(../images/searchburger.jpg);
+                                    background-size: cover;
+                                    height: 15em;
+                                }
+                                
+                                #featured a {
+                                    text-align: center;
+                                }
+                                
+                                #featured a:hover {
+                                    color: #a1c026;
+                                }
+                                
+                                .bigsearch {
+                                    text-align: center;
+                                    padding-top: 6em;
+                                }
+                                
+                                .bigsearch input {
+                                    font-style: italic;
+                                    font-family: 'Arvo';
+                                    padding-left: 1em;
+                                    width: 50%;
+                                    height: 2.2em;
+                                    opacity: 0.8;
+                                    border: none;
+                                }
+                                
+                                .bigsearch button {
+                                    background: #ffffff;
+                                    border: none;
+                                    height: 2.2em;
+                                    opacity: 0.8;
+                                    color: #9c1a10;
+                                }
+                                
+                                #search::-webkit-input-placeholder {
+                                    /* WebKit, Blink, Edge */
+                                    color: #9c1a10;
+                                }
+                                
+                                #search:-moz-placeholder {
+                                    /* Mozilla Firefox 4 to 18 */
+                                    color: #9c1a10;
+                                    opacity: 1;
+                                }
+                                
+                                #search::-moz-placeholder {
+                                    /* Mozilla Firefox 19+ */
+                                    color: #9c1a10;
+                                    opacity: 1;
+                                }
+                                
+                                #search:-ms-input-placeholder {
+                                    /* Internet Explorer 10-11 */
+                                    color: #9c1a10;
+                                }
+                                
+                                .glyphicon-search {
+                                    color: #9c1a10;
+                                }
+                                /* End Index Styling */
+                                /* Start Nav Styling */
+                                
+                                nav {
+                                    background-color: #ffffff !important;
+                                    margin-bottom: 0px !important;
+                                }
+                                
+                                nav a {
+                                    font-family: 'Arvo';
+                                    color: #9c1a10 !important;
+                                }
+                                
+                                nav a:hover {
+                                    color: #a1c026 !important;
+                                }
+                                
+                                .navbar-form {
+                                    border: 0;
+                                }
+                                
+                                .logo {
+                                    font-family: 'lobster';
+                                    color: #9c1a10 !important;
+                                    font-size: 1.5em;
+                                }
+                                
+                                .form-control {
+                                    width: 70%;
+                                }
+                                /* End Nav Styling */
+                                /* Start Type Styling */
+                                
+                                p {
+                                    font-family: 'Lato';
+                                    color: #a1a1a1;
+                                }
+                                
+                                h1 {
+                                    text-align: center;
+                                    font-family: 'Arvo';
+                                    color: #a1c026;
+                                    font-size: 2em;
+                                    margin-bottom: 1em;
+                                }
+                                
+                                h2 {
+                                    font-family: 'Lobster';
+                                    font-size: 2.3em;
+                                    color: #a1c026;
+                                    margin-top: 0.3em;
+                                }
+                                
+                                h3 {
+                                    font-family: 'Arvo';
+                                    font-style: italic;
+                                    font-size: 1.3em;
+                                    color: #9c1a10;
+                                    margin-top: 1em;
+                                    margin-bottom: 1.5em;
+                                }
+                                
+                                h4 {
+                                    font-family: 'Arvo';
+                                    font-weight: 700;
+                                    color: #a1c026;
+                                }
+                                
+                                h5 {
+                                    font-family: 'Arvo';
+                                    color: #95701f;
+                                }
+                                /* End Type Styling */
+                                /*Begin Burger Page Styling*/
+                                
+                                .nav-tabs a {
+                                    font-family: 'Arvo';
+                                    color: #95701f;
+                                }
+                                
+                                #cook {
+                                    margin-left: auto;
+                                    width: 100%;
+                                }
+                                
+                                #cook ul {
+                                    padding-left: 40px;
+                                }
+                                
+                                #cook ul li {
+                                    list-style-type: disc;
+                                }
+                                
+                                #cook span {
+                                    font-size: 3.5em;
+                                    color: #a1c026;
+                                }
+                                
+                                #prep {
+                                    width: 100%;
+                                }
+                                
+                                #prep span {
+                                    float: left;
+                                }
+                                
+                                .rating img {
+                                    width: 70%;
+                                }
+                                
+                                .description {
+                                    margin-bottom: 4em;
+                                }
+                                
+                                table {
+                                    margin-top: 1.5em;
+                                }
+                                
+                                td h4,
+                                td p {
+                                    margin: 0;
+                                    padding: 0.3em;
+                                }
+                                
+                                #reviews input[type=text] {
+                                    margin-top: 1em;
+                                    width: 100%;
+                                    height: 6em;
+                                }
+                                
+                                #reviews img {
+                                    width: 20%;
+                                }
+                                
+                                input[type=submit] {
+                                    float: right;
+                                    border: none;
+                                    border-bottom-right-radius: 5px;
+                                    padding: 2%;
+                                    font-family: 'Arvo';
+                                    color: #ffffff;
+                                    background-color: #a1c026;
+                                }
+                                
+                                input[type=reset] {
+                                    float: right;
+                                    border: none;
+                                    border-right: 2px solid white;
+                                    border-bottom-left-radius: 5px;
+                                    padding: 2%;
+                                    font-family: 'Arvo';
+                                    color: #ffffff;
+                                    background-color: #a1c026;
+                                }
+                                
+                                .toggles {
+                                    float: left;
+                                    margin-top: 1em;
+                                }
+                                /*End Burger Page Styling*/
+                                /*Begin All Recipe Styling*/
+                                
+                                .recipe {
+                                    padding: 1em;
+                                    border: 1px solid #a1a1a1;
+                                    float: left;
+                                    margin-bottom: 5%;
+                                }
+                                
+                                .recipe img:nth-child(3) {
+                                    margin-bottom: 0.5em;
+                                    max-width: 30%;
+                                }
+                                
+                                .recipe h3 {
+                                    margin-top: 0.5em;
+                                    margin-bottom: 0.5em;
+                                }
+                                /*End All Recipe Styling*/
+                                
+                                .more {
+                                    border: none;
+                                    border-radius: 5px;
+                                    padding: 2%;
+                                    font-family: 'Arvo';
+                                    color: #ffffff;
+                                    background-color: #a1c026;
+                                    margin-top: 2em;
+                                    margin-bottom: 2em;
+                                }
+                                
+                                #featured a {
+                                    font-family: 'Arvo';
+                                    font-weight: 400;
+                                    font-size: 1.2em;
+                                    color: #9c1a10;
+                                    margin-bottom: 1.2em;
+                                }
+                                
+                                #featured img {
+                                    margin-bottom: 0.4em;
+                                }
+                                
+                                footer {
+                                    font-family: 'Lato';
+                                    background-color: #f3e3ba;
+                                }
+                                
+                                footer ul {
+                                    margin-left: 40%;
+                                }
+                                
+                                footer a {
+                                    font-size: 1em;
+                                    color: #95701f;
+                                    float: left;
+                                    padding: 1em;
+                                }
+                                /* MEDIA QUERIES*/
+                                /* Small devices (tablets, 768px and up) */
+                                
+                                @media (min-width: 768px) {
+                                    #featured li {
+                                        width: 45%;
+                                        float: left;
+                                    }
+                                    #featured li:nth-child(2) {
+                                        margin-left: 10%;
+                                    }
+                                    .recipe {
+                                        width: 30%;
+                                        margin-right: 3%;
+                                        height: 25em;
+                                    }
+                                    .nav {
+                                        margin-left: 10%;
+                                    }
+                                    .toggles ul {
+                                        margin-left: 0 !important;
+                                    }
+                                    .rating img {
+                                        max-width: 40%;
+                                    }
+                                    .recipe img:nth-child(3) {
+                                        max-width: 40%;
+                                    }
+                                    /* Medium devices (desktops, 992px and up) */
+                                    @media (min-width: 992px) {
+                                        .recipe {
+                                            width: 22.5%;
+                                            margin-right: 2.5%;
+                                            margin-bottom: 2em;
+                                        }
+                                        .nav {
+                                            margin-left: 25%;
+                                        }
+                                    }
