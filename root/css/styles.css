@@ -5,10 +5,14 @@ body {
 
 ul {
     padding-left: 0;
+    font-family: 'Lato';
+    color: #a1a1a1;
+    padding-left: 40px;
 }
 
 li {
     list-style: none;
+    margin-bottom: 0.3em;
 }
 
 ol {
@@ -168,6 +172,20 @@ h5 {
 
 /*Begin Burger Page Styling*/
 
+.nav-tabs a {
+    font-family: 'Arvo';
+    color: #95701f;
+}
+
+#cook {
+    margin-left: auto;
+    width: 100%;
+}
+
+#cook ul li {
+    list-style-type: disc;
+}
+
 #cook span {
     font-size: 3.5em;
     color: #a1c026;
@@ -186,7 +204,7 @@ h5 {
 }
 
 .description {
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 
 table {
@@ -199,7 +217,8 @@ td p {
     padding: 0.3em;
 }
 
-input[type=text] {
+#reviews input[type=text] {
+    margin-top: 1em;
     width: 100%;
     height: 6em;
 }
@@ -238,11 +257,13 @@ input[type=reset] {
 .recipe {
     padding: 0.6em;
     border: 1px solid #a1a1a1;
-    width: 40%;
     height: 25em;
     float: left;
-    margin-right: 10%;
     margin-bottom: 5%;
+}
+
+.recipe img:nth-child(2) {
+    width: 70%;
 }
 
 
@@ -255,7 +276,8 @@ input[type=reset] {
     font-family: 'Arvo';
     color: #ffffff;
     background-color: #a1c026;
-    margin: 2em auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #featured a {
